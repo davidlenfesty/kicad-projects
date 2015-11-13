@@ -1,0 +1,38 @@
+eeschema (25-Oct-2014 BZR 4029)-stable  >> Creation date: Wed 11 Nov 2015 03:06:31 PM MST
+#Cmp ( order = Reference )
+| PA0        CONN_20X2   
+| PA1        CONN_10     
+| PA2        CONN_10     
+| PA3        CONN_10     
+| PA4        CONN_10     
+| PB0        CONN_20X2   
+| PB1        CONN_10     
+| PB2        CONN_10     
+| PB3        CONN_10     
+| PB4        CONN_10     
+| PC0        CONN_20X2   
+| PC1        CONN_10     
+| PC2        CONN_10     
+| PC3        CONN_10     
+| PC4        CONN_10     
+#End Cmp
+
+#Cmp ( order = Value )
+| CONN_20X2    PA0       
+| CONN_10      PA1       
+| CONN_10      PA2       
+| CONN_10      PA3       
+| CONN_10      PA4       
+| CONN_20X2    PB0       
+| CONN_10      PB1       
+| CONN_10      PB2       
+| CONN_10      PB3       
+| CONN_10      PB4       
+| CONN_20X2    PC0       
+| CONN_10      PC1       
+| CONN_10      PC2       
+| CONN_10      PC3       
+| CONN_10      PC4       
+#End Cmp
+
+#End List
