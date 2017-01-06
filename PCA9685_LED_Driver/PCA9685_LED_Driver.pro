@@ -1,4 +1,4 @@
-update=Thu 05 Jan 2017 06:48:35 PM MST
+update=Sat 27 Aug 2016 03:32:02 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,6 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=custom-parts
-[general]
-version=1
+LibName30=pca9685
+LibName31=/home/isthatme/kicad-projects/kicadlibrary/open-project

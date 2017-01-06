@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D1,D2,D3";"LED-3MM";3;"LED";;;
+2;"A1,A0";"GS2";2;"Jumper_NO_Small";;;
+3;"P1,P7";"Pin_Header_Straight_1x02";2;"CONN_01X02";;;
+4;"P2,P4";"Pin_Header_Straight_1x03";2;"CONN_01X03";;;
+5;"P3";"Pin_Header_Straight_1x04";1;"CONN_01X04";;;
+6;"Q1,Q3,Q5";"TO-220";3;"BD911";;;
+7;"Q2,Q4,Q6,Q7,Q8,Q9";"TO-92_Inline_Narrow_Oval";6;"BC413";;;
+8;"R1,R4,R7";"Resistor_Horizontal_RM7mm";3;"10K";;;
+9;"R2,R5,R8";"Resistor_Horizontal_RM7mm";3;"2K";;;
+10;"R3,R6,R9";"Resistor_Horizontal_RM15mm";3;"R";;;
+11;"R10,R11";"Resistor_Horizontal_RM7mm";2;"4.7K";;;
+12;"R12,R13,R14";"Resistor_Horizontal_RM7mm";3;"500";;;
+13;"RV1,RV2,RV3";"Potentiometer_VishaySpectrol-Econtrim-Type36P";3;"10K";;;
+14;"U1";"TSSOP-10_3x3mm_Pitch0.5mm";1;"PCA9633";;;
+15;"U2";"DIP-14_W7.62mm";1;"LM324AN";;;
