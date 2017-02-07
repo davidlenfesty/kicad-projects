@@ -1,3 +1,7 @@
 # kicad-projects
 
-Just a repo for my random KiCAD projects. Nothing to see here. Move along.
+A repo for all my personal kicad PCB projects.
+
+Included are some LED drivers for home automation purposes.
+
+There isn't really anything special about this stuff.
