@@ -1,0 +1,475 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bc817DS
+LIBS:pca9634
+LIBS:16Channel-LED-Driver-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PCA9634 U6
+U 1 1 588C0734
+P 3850 2050
+AR Path="/588C5EEC/588C0734" Ref="U6"  Part="1" 
+AR Path="/588BB842/588C0734" Ref="U3"  Part="1" 
+F 0 "U6" H 3850 1350 60  0000 C CNN
+F 1 "PCA9634" H 3850 2650 60  0000 C CNN
+F 2 "SMD_Packages:SSOP-20" H 3750 2400 60  0001 C CNN
+F 3 "" H 3750 2400 60  0001 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP8
+U 1 1 588BBF91
+P 1000 2400
+AR Path="/588C5EEC/588BBF91" Ref="JP8"  Part="1" 
+AR Path="/588BB842/588BBF91" Ref="JP1"  Part="1" 
+F 0 "JP8" H 1000 2480 50  0000 C CNN
+F 1 "A0" H 1010 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 1000 2400 50  0001 C CNN
+F 3 "" H 1000 2400 50  0000 C CNN
+	1    1000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP9
+U 1 1 588BC14C
+P 1200 2400
+AR Path="/588C5EEC/588BC14C" Ref="JP9"  Part="1" 
+AR Path="/588BB842/588BC14C" Ref="JP2"  Part="1" 
+F 0 "JP9" H 1200 2480 50  0000 C CNN
+F 1 "A1" H 1210 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 1200 2400 50  0001 C CNN
+F 3 "" H 1200 2400 50  0000 C CNN
+	1    1200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP10
+U 1 1 588BC167
+P 1400 2400
+AR Path="/588C5EEC/588BC167" Ref="JP10"  Part="1" 
+AR Path="/588BB842/588BC167" Ref="JP3"  Part="1" 
+F 0 "JP10" H 1400 2480 50  0000 C CNN
+F 1 "A2" H 1410 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 1400 2400 50  0001 C CNN
+F 3 "" H 1400 2400 50  0000 C CNN
+	1    1400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP11
+U 1 1 588C0738
+P 1600 2400
+AR Path="/588C5EEC/588C0738" Ref="JP11"  Part="1" 
+AR Path="/588BB842/588C0738" Ref="JP4"  Part="1" 
+F 0 "JP11" H 1600 2480 50  0000 C CNN
+F 1 "A3" H 1610 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 1600 2400 50  0001 C CNN
+F 3 "" H 1600 2400 50  0000 C CNN
+	1    1600 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP12
+U 1 1 588BC1B0
+P 1800 2400
+AR Path="/588C5EEC/588BC1B0" Ref="JP12"  Part="1" 
+AR Path="/588BB842/588BC1B0" Ref="JP5"  Part="1" 
+F 0 "JP12" H 1800 2480 50  0000 C CNN
+F 1 "A4" H 1810 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 1800 2400 50  0001 C CNN
+F 3 "" H 1800 2400 50  0000 C CNN
+	1    1800 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP13
+U 1 1 588BC1E0
+P 2000 2400
+AR Path="/588C5EEC/588BC1E0" Ref="JP13"  Part="1" 
+AR Path="/588BB842/588BC1E0" Ref="JP6"  Part="1" 
+F 0 "JP13" H 2000 2480 50  0000 C CNN
+F 1 "A5" H 2010 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 2000 2400 50  0001 C CNN
+F 3 "" H 2000 2400 50  0000 C CNN
+	1    2000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP14
+U 1 1 588BC209
+P 2200 2400
+AR Path="/588C5EEC/588BC209" Ref="JP14"  Part="1" 
+AR Path="/588BB842/588BC209" Ref="JP7"  Part="1" 
+F 0 "JP14" H 2200 2480 50  0000 C CNN
+F 1 "A6" H 2210 2340 50  0000 C CNN
+F 2 "Custom_Footprints:Jumper_SMD" H 2200 2400 50  0001 C CNN
+F 3 "" H 2200 2400 50  0000 C CNN
+	1    2200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R33
+U 1 1 588BC517
+P 1350 1300
+AR Path="/588C5EEC/588BC517" Ref="R33"  Part="1" 
+AR Path="/588BB842/588BC517" Ref="R1"  Part="1" 
+F 0 "R33" V 1430 1300 50  0000 C CNN
+F 1 "10K" V 1350 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1280 1300 50  0001 C CNN
+F 3 "" H 1350 1300 50  0000 C CNN
+	1    1350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R34
+U 1 1 588BC57B
+P 1500 1300
+AR Path="/588C5EEC/588BC57B" Ref="R34"  Part="1" 
+AR Path="/588BB842/588BC57B" Ref="R2"  Part="1" 
+F 0 "R34" V 1580 1300 50  0000 C CNN
+F 1 "10K" V 1500 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1430 1300 50  0001 C CNN
+F 3 "" H 1500 1300 50  0000 C CNN
+	1    1500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R35
+U 1 1 588C073E
+P 1650 1300
+AR Path="/588C5EEC/588C073E" Ref="R35"  Part="1" 
+AR Path="/588BB842/588C073E" Ref="R3"  Part="1" 
+F 0 "R35" V 1730 1300 50  0000 C CNN
+F 1 "10K" V 1650 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1580 1300 50  0001 C CNN
+F 3 "" H 1650 1300 50  0000 C CNN
+	1    1650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R36
+U 1 1 588C073F
+P 1800 1300
+AR Path="/588C5EEC/588C073F" Ref="R36"  Part="1" 
+AR Path="/588BB842/588C073F" Ref="R4"  Part="1" 
+F 0 "R36" V 1880 1300 50  0000 C CNN
+F 1 "10K" V 1800 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1730 1300 50  0001 C CNN
+F 3 "" H 1800 1300 50  0000 C CNN
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R37
+U 1 1 588C0740
+P 1950 1300
+AR Path="/588C5EEC/588C0740" Ref="R37"  Part="1" 
+AR Path="/588BB842/588C0740" Ref="R5"  Part="1" 
+F 0 "R37" V 2030 1300 50  0000 C CNN
+F 1 "10K" V 1950 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1880 1300 50  0001 C CNN
+F 3 "" H 1950 1300 50  0000 C CNN
+	1    1950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R38
+U 1 1 588C0741
+P 2100 1300
+AR Path="/588C5EEC/588C0741" Ref="R38"  Part="1" 
+AR Path="/588BB842/588C0741" Ref="R6"  Part="1" 
+F 0 "R38" V 2180 1300 50  0000 C CNN
+F 1 "10K" V 2100 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2030 1300 50  0001 C CNN
+F 3 "" H 2100 1300 50  0000 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 588C0742
+P 2250 1300
+AR Path="/588C5EEC/588C0742" Ref="R39"  Part="1" 
+AR Path="/588BB842/588C0742" Ref="R7"  Part="1" 
+F 0 "R39" V 2330 1300 50  0000 C CNN
+F 1 "10K" V 2250 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 1300 50  0001 C CNN
+F 3 "" H 2250 1300 50  0000 C CNN
+	1    2250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1600 1000 1600
+Wire Wire Line
+	1000 1600 1000 2300
+Wire Wire Line
+	3400 1700 1200 1700
+Wire Wire Line
+	1200 1700 1200 2300
+Wire Wire Line
+	3400 1800 1400 1800
+Wire Wire Line
+	1400 1800 1400 2300
+Wire Wire Line
+	3400 1900 1600 1900
+Wire Wire Line
+	1600 1900 1600 2300
+Wire Wire Line
+	3400 2000 1800 2000
+Wire Wire Line
+	1800 2000 1800 2300
+Wire Wire Line
+	3400 2100 2000 2100
+Wire Wire Line
+	2000 2100 2000 2300
+Wire Wire Line
+	3400 2200 2200 2200
+Wire Wire Line
+	2200 2200 2200 2300
+Wire Wire Line
+	1350 1450 1350 1600
+Connection ~ 1350 1600
+Wire Wire Line
+	1500 1450 1500 1700
+Connection ~ 1500 1700
+Wire Wire Line
+	1650 1450 1650 1800
+Connection ~ 1650 1800
+Wire Wire Line
+	1800 1450 1800 1900
+Connection ~ 1800 1900
+Wire Wire Line
+	1950 1450 1950 2000
+Connection ~ 1950 2000
+Wire Wire Line
+	2100 1450 2100 2100
+Connection ~ 2100 2100
+Wire Wire Line
+	2250 1450 2250 2200
+Connection ~ 2250 2200
+Wire Wire Line
+	1000 2500 2450 2500
+Connection ~ 1200 2500
+Connection ~ 1400 2500
+Connection ~ 1600 2500
+Connection ~ 1800 2500
+Connection ~ 2000 2500
+Connection ~ 2200 2500
+Wire Wire Line
+	1350 1150 2500 1150
+Connection ~ 1500 1150
+Connection ~ 1650 1150
+Connection ~ 1800 1150
+Connection ~ 1950 1150
+Connection ~ 2100 1150
+Connection ~ 2250 1150
+$Comp
+L GND #PWR048
+U 1 1 588C0743
+P 2500 1150
+AR Path="/588C5EEC/588C0743" Ref="#PWR048"  Part="1" 
+AR Path="/588BB842/588C0743" Ref="#PWR07"  Part="1" 
+F 0 "#PWR048" H 2500 900 50  0001 C CNN
+F 1 "GND" H 2500 1000 50  0000 C CNN
+F 2 "" H 2500 1150 50  0000 C CNN
+F 3 "" H 2500 1150 50  0000 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2350 3400 2350
+$Comp
+L R R40
+U 1 1 588C0744
+P 2400 2850
+AR Path="/588C5EEC/588C0744" Ref="R40"  Part="1" 
+AR Path="/588BB842/588C0744" Ref="R8"  Part="1" 
+F 0 "R40" V 2480 2850 50  0000 C CNN
+F 1 "10K" V 2400 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2330 2850 50  0001 C CNN
+F 3 "" H 2400 2850 50  0000 C CNN
+	1    2400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC413 Q34
+U 1 1 588C0745
+P 2300 3200
+AR Path="/588C5EEC/588C0745" Ref="Q34"  Part="1" 
+AR Path="/588BB842/588C0745" Ref="Q1"  Part="1" 
+F 0 "Q34" H 2500 3275 50  0000 L CNN
+F 1 "BC413" H 2500 3200 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2500 3125 50  0000 L CIN
+F 3 "" H 2300 3200 50  0000 L CNN
+	1    2300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2700 2150 2700
+$Comp
+L GND #PWR049
+U 1 1 588C0746
+P 2400 3400
+AR Path="/588C5EEC/588C0746" Ref="#PWR049"  Part="1" 
+AR Path="/588BB842/588C0746" Ref="#PWR08"  Part="1" 
+F 0 "#PWR049" H 2400 3150 50  0001 C CNN
+F 1 "GND" H 2400 3250 50  0000 C CNN
+F 2 "" H 2400 3400 50  0000 C CNN
+F 3 "" H 2400 3400 50  0000 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3200 1850 3200
+Text GLabel 1850 3200 0    60   Input ~ 0
+OE-Disable
+Text HLabel 2450 2500 2    60   Input ~ 0
++5V
+Text HLabel 2150 2700 0    60   Input ~ 0
++5V
+Wire Wire Line
+	2400 3000 2750 3000
+Wire Wire Line
+	2750 3000 2750 2350
+Wire Wire Line
+	3400 2500 3200 2500
+Text HLabel 3200 2500 0    60   Input ~ 0
++5V
+$Comp
+L GND #PWR050
+U 1 1 588BDC8D
+P 3400 2600
+AR Path="/588C5EEC/588BDC8D" Ref="#PWR050"  Part="1" 
+AR Path="/588BB842/588BDC8D" Ref="#PWR09"  Part="1" 
+F 0 "#PWR050" H 3400 2350 50  0001 C CNN
+F 1 "GND" H 3400 2450 50  0000 C CNN
+F 2 "" H 3400 2600 50  0000 C CNN
+F 3 "" H 3400 2600 50  0000 C CNN
+	1    3400 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 4300 2500 2    60   Input ~ 0
+SDA
+Text HLabel 4300 2600 2    60   Input ~ 0
+SCL
+$Sheet
+S 6400 1200 1500 900 
+U 588C0748
+F0 "LED Driver A" 60
+F1 "LED-Driver-A.sch" 60
+F2 "LED1" I L 6400 1350 60 
+F3 "LED2" I L 6400 1500 60 
+F4 "LED3" I L 6400 1650 60 
+F5 "LED4" I L 6400 1800 60 
+F6 "+5V" I L 6400 1950 60 
+$EndSheet
+Text HLabel 6000 1950 0    60   Input ~ 0
++5V
+Wire Wire Line
+	6000 1950 6400 1950
+Wire Wire Line
+	6400 1350 4300 1350
+Wire Wire Line
+	4300 1350 4300 1600
+Wire Wire Line
+	6400 1500 4400 1500
+Wire Wire Line
+	4400 1500 4400 1700
+Wire Wire Line
+	4400 1700 4300 1700
+Wire Wire Line
+	6400 1650 4500 1650
+Wire Wire Line
+	4500 1650 4500 1800
+Wire Wire Line
+	4500 1800 4300 1800
+Wire Wire Line
+	6400 1800 4600 1800
+Wire Wire Line
+	4600 1800 4600 1900
+Wire Wire Line
+	4600 1900 4300 1900
+$Sheet
+S 6450 3400 1500 900 
+U 588C077F
+F0 "LED Driver B" 60
+F1 "LED-Driver-B.sch" 60
+F2 "LED1" I L 6450 3550 60 
+F3 "LED2" I L 6450 3700 60 
+F4 "LED3" I L 6450 3850 60 
+F5 "LED4" I L 6450 4000 60 
+F6 "+5V" I L 6450 4150 60 
+$EndSheet
+Wire Wire Line
+	6050 4150 6450 4150
+Wire Wire Line
+	5400 3550 6450 3550
+Wire Wire Line
+	4300 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 3700
+Wire Wire Line
+	5300 3700 6450 3700
+Wire Wire Line
+	4300 2200 5200 2200
+Wire Wire Line
+	5200 2200 5200 3850
+Wire Wire Line
+	5200 3850 6450 3850
+Wire Wire Line
+	4300 2300 5100 2300
+Wire Wire Line
+	5100 2300 5100 4000
+Wire Wire Line
+	5100 4000 6450 4000
+Wire Wire Line
+	4300 2000 5400 2000
+Wire Wire Line
+	5400 2000 5400 3550
+Text HLabel 6050 4150 0    60   Input ~ 0
++5V
+Text Notes 1300 3800 0    60   ~ 0
+Set this pin High to enable the outputs
+$EndSCHEMATC

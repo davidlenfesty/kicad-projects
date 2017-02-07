@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC817DS
+D 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.nxp.com/documents/data_sheet/BC817DS.pdf
+$ENDCMP
+#
+$CMP BC849
+D 30V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+$CMP BC850
+D 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+#End Doc Library

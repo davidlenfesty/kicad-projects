@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3Channel-LED-Driver-NoSensing-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -155,7 +156,7 @@ F 3 "" H 4950 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-3Channel-LED-Driver-NoSensing RV1
 U 1 1 579912B6
 P 4700 2400
 F 0 "RV1" H 4700 2320 50  0000 C CNN
@@ -287,7 +288,7 @@ F 3 "" H 7250 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV2
+L POT-RESCUE-3Channel-LED-Driver-NoSensing RV2
 U 1 1 57992148
 P 6750 2450
 F 0 "RV2" H 6750 2370 50  0000 C CNN
@@ -386,7 +387,7 @@ F 3 "" H 9500 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV3
+L POT-RESCUE-3Channel-LED-Driver-NoSensing RV3
 U 1 1 579924B0
 P 9200 2450
 F 0 "RV3" H 9200 2370 50  0000 C CNN
@@ -551,7 +552,7 @@ F 3 "" H 6700 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-3Channel-LED-Driver-NoSensing D1
 U 1 1 5799533D
 P 6400 4600
 F 0 "D1" H 6400 4700 50  0000 C CNN
@@ -584,7 +585,7 @@ F 3 "" H 6700 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-3Channel-LED-Driver-NoSensing D3
 U 1 1 579958DC
 P 6400 6950
 F 0 "D3" H 6400 7050 50  0000 C CNN
@@ -617,7 +618,7 @@ F 3 "" H 6700 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-3Channel-LED-Driver-NoSensing D2
 U 1 1 57995BEB
 P 6400 5750
 F 0 "D2" H 6400 5850 50  0000 C CNN

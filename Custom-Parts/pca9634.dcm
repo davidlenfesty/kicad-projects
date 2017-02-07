@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9634
+D 8-Bit Fm+ I2C LED PWM Driver
+K I2C, LED, Driver, IC
+F http://www.nxp.com/documents/data_sheet/PCA9634.pdf
+$ENDCMP
+#
+#End Doc Library
