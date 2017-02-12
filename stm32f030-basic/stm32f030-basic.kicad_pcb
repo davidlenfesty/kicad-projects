@@ -999,7 +999,7 @@
     )
   )
 
-  (gr_text "Rev A" (at 70.5 50.5) (layer B.Mask)
+  (gr_text "Rev A" (at 70.5 50.5) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3) italic) (justify mirror))
   )
   (gr_text "David Lenfesty" (at 75 59.5) (layer F.SilkS)
