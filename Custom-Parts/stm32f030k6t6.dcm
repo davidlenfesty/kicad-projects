@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F030K6T6
+D STM32F030K6T6 - 32 Bit ARM Microcontroller
+K ARM, 32bit, micro, microcontroller
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/a4/5d/0b/0e/87/c4/4d/71/DM00088500.pdf/files/DM00088500.pdf/jcr:content/translations/en.DM00088500.pdf
+$ENDCMP
+#
+#End Doc Library

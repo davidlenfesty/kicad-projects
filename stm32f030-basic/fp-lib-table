@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name microSD)(type KiCad)(uri "$(KIPRJMOD)/microSD.pretty")(options "")(descr ""))
+)
