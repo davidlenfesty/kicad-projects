@@ -1,4 +1,4 @@
-update=Sun 12 Feb 2017 06:10:51 PM MST
+update=Thu 23 Mar 2017 09:03:04 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=/home/isthatme/kicad-projects/Custom-Parts/stm32f030k6t6
 LibName31=/home/isthatme/kicad-projects/Custom-Parts/w5500
 LibName32=/home/isthatme/kicad-projects/Custom-Parts/stm32f030r8t6
+LibName33=switches
