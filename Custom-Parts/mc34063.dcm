@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC34063
+D Jellybean SMPS Controller
+K SMPS,
+F https://www.onsemi.com/pub/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+#End Doc Library
