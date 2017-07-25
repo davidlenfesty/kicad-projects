@@ -461,10 +461,6 @@ F 3 "" H 1400 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1700 2650
-Text Label 1700 1500 1    60   ~ 0
-+12V-A
-Text Label 1700 2650 1    60   ~ 0
-+12V-B
 $Comp
 L CONN_01X02 P14
 U 1 1 5890D2B4
@@ -513,4 +509,28 @@ Text GLabel 3850 1950 2    60   Input ~ 0
 +5V-A
 Text GLabel 3900 3000 2    60   Input ~ 0
 +5V-B
+$Comp
+L +12V #PWR011
+U 1 1 5976ACA2
+P 1550 2650
+F 0 "#PWR011" H 1550 2500 50  0001 C CNN
+F 1 "+12V" H 1550 2790 50  0000 C CNN
+F 2 "" H 1550 2650 50  0000 C CNN
+F 3 "" H 1550 2650 50  0000 C CNN
+	1    1550 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 2650
+$Comp
+L +12V #PWR012
+U 1 1 5976AD13
+P 1550 1500
+F 0 "#PWR012" H 1550 1350 50  0001 C CNN
+F 1 "+12V" H 1550 1640 50  0000 C CNN
+F 2 "" H 1550 1500 50  0000 C CNN
+F 3 "" H 1550 1500 50  0000 C CNN
+	1    1550 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 1500
 $EndSCHEMATC
