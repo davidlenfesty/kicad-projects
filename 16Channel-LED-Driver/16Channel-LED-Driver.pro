@@ -1,4 +1,4 @@
-update=Fri 27 Jan 2017 12:51:16 PM MST
+update=2017-10-07 4:52:44 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,4 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=BC817DS/bc817DS
-LibName31=/home/isthatme/kicad-projects/Custom-Parts/pca9634
+LibName31=C:/Users/David/Documents/kicad-projects/Custom-Parts/pca9634
