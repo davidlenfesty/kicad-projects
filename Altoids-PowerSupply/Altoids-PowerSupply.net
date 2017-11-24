@@ -1,0 +1,45 @@
+(export (version D)
+  (design
+    (source C:/Users/David/Documents/kicad-projects/Altoids-PowerSupply/Altoids-PowerSupply.sch)
+    (date "2017-11-07 12:16:28 PM")
+    (tool "Eeschema 4.0.7")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source Altoids-PowerSupply.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref BT1)
+      (value BattHold-2X18650-1049)
+      (footprint cust_footprints:BattHolder-1049)
+      (libsource (lib batthold-2x18650-1049) (part BattHold-2X18650-1049))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5A01FFDD)))
+  (libparts
+    (libpart (lib batthold-2x18650-1049) (part BattHold-2X18650-1049)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) BattHold-2X18650-1049))
+      (pins
+        (pin (num 1) (name BT1+) (type power_out))
+        (pin (num 2) (name BT1-) (type power_out))
+        (pin (num 3) (name BT2+) (type power_out))
+        (pin (num 4) (name BT2-) (type power_out)))))
+  (libraries
+    (library (logical batthold-2x18650-1049)
+      (uri C:\Users\David\Documents\kicad-projects\Custom-Parts\batthold-2x18650-1049.lib)))
+  (nets
+    (net (code 1) (name "Net-(BT1-Pad1)")
+      (node (ref BT1) (pin 1)))
+    (net (code 2) (name "Net-(BT1-Pad2)")
+      (node (ref BT1) (pin 2)))
+    (net (code 3) (name "Net-(BT1-Pad3)")
+      (node (ref BT1) (pin 3)))
+    (net (code 4) (name "Net-(BT1-Pad4)")
+      (node (ref BT1) (pin 4)))))

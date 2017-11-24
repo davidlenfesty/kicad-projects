@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC34063
+D Switching Power Supply Controller
+K SMPS
+$ENDCMP
+#
+#End Doc Library
