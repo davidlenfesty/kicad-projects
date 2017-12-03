@@ -90,10 +90,6 @@ Text Label 10550 1600 0    60   ~ 0
 Text Label 10550 1400 0    60   ~ 0
 AREF
 NoConn ~ 9400 1600
-Text Label 10550 1300 0    60   ~ 0
-A4(SDA)
-Text Label 10550 1200 0    60   ~ 0
-A5(SCL)
 Text Notes 10850 1000 0    60   ~ 0
 Holes
 Text Notes 8550 750  0    60   ~ 0
@@ -331,7 +327,7 @@ U 1 1 597A3729
 P 1450 1800
 F 0 "P9" H 1450 2350 50  0000 C CNN
 F 1 "CONN_01X10" V 1550 1800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x10" H 1450 1800 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 1450 1800 50  0001 C CNN
 F 3 "" H 1450 1800 50  0000 C CNN
 	1    1450 1800
 	-1   0    0    1   
@@ -433,7 +429,7 @@ U 1 1 597A4D30
 P 3500 1800
 F 0 "P10" H 3500 2350 50  0000 C CNN
 F 1 "CONN_01X10" V 3600 1800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x10" H 3500 1800 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 3500 1800 50  0001 C CNN
 F 3 "" H 3500 1800 50  0000 C CNN
 	1    3500 1800
 	-1   0    0    1   
@@ -536,7 +532,7 @@ U 1 1 597A504A
 P 1450 4000
 F 0 "P11" H 1450 4550 50  0000 C CNN
 F 1 "CONN_01X10" V 1550 4000 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x10" H 1450 4000 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 1450 4000 50  0001 C CNN
 F 3 "" H 1450 4000 50  0000 C CNN
 	1    1450 4000
 	-1   0    0    1   
@@ -639,7 +635,7 @@ U 1 1 597A525C
 P 3550 4050
 F 0 "P12" H 3550 4600 50  0000 C CNN
 F 1 "CONN_01X10" V 3650 4050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x10" H 3550 4050 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 3550 4050 50  0001 C CNN
 F 3 "" H 3550 4050 50  0000 C CNN
 	1    3550 4050
 	-1   0    0    1   
@@ -867,11 +863,9 @@ A3
 Wire Notes Line
 	800  850  5400 850 
 Wire Notes Line
-	5400 850  5400 5450
+	5400 850  5400 7350
 Wire Notes Line
-	5400 5450 800  5450
-Wire Notes Line
-	800  5450 800  850 
+	800  850  800  7350
 Text Notes 950  1000 0    60   ~ 0
 Switch Inputs/Bank Selectors
 Wire Notes Line
@@ -945,4 +939,246 @@ Text Label 1900 4250 0    60   ~ 0
 3(**)
 Text Label 4000 4300 0    60   ~ 0
 3(**)
+$Comp
+L CONN_01X10 P13
+U 1 1 5A222B25
+P 1500 6100
+F 0 "P13" H 1500 6650 50  0000 C CNN
+F 1 "CONN_01X10" V 1600 6100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 1500 6100 50  0001 C CNN
+F 3 "" H 1500 6100 50  0000 C CNN
+	1    1500 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 5650 1950 5650
+Wire Wire Line
+	1700 6450 1950 6450
+Wire Wire Line
+	1700 6350 1950 6350
+Wire Wire Line
+	1700 6250 1950 6250
+Wire Wire Line
+	1700 6150 1950 6150
+Wire Wire Line
+	1700 6050 1950 6050
+Wire Wire Line
+	1700 5950 1950 5950
+Wire Wire Line
+	1700 5850 1950 5850
+Wire Wire Line
+	1700 5750 1950 5750
+Text Label 1950 6450 0    60   ~ 0
+2
+Text Label 1950 6250 0    60   ~ 0
+4
+Text Label 1950 5950 0    60   ~ 0
+7
+Text Label 1950 5850 0    60   ~ 0
+8
+$Comp
+L Q_NPN_BEC Q5
+U 1 1 5A222B38
+P 2750 6600
+F 0 "Q5" H 2950 6650 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 2950 6550 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2950 6700 50  0001 C CNN
+F 3 "" H 2750 6600 50  0000 C CNN
+	1    2750 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5650 1950 5400
+Wire Wire Line
+	1950 5400 1200 5400
+Wire Wire Line
+	1200 5400 1200 6800
+$Comp
+L R R15
+U 1 1 5A222B41
+P 1950 6950
+F 0 "R15" V 2030 6950 50  0000 C CNN
+F 1 "10K" V 1950 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1880 6950 50  0001 C CNN
+F 3 "" H 1950 6950 50  0000 C CNN
+	1    1950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5A222B47
+P 1950 7100
+F 0 "#PWR017" H 1950 6850 50  0001 C CNN
+F 1 "GND" H 1950 6950 50  0000 C CNN
+F 2 "" H 1950 7100 50  0000 C CNN
+F 3 "" H 1950 7100 50  0000 C CNN
+	1    1950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5A222B4D
+P 1550 6800
+F 0 "R13" V 1630 6800 50  0000 C CNN
+F 1 "1K" V 1550 6800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1480 6800 50  0001 C CNN
+F 3 "" H 1550 6800 50  0000 C CNN
+	1    1550 6800
+	0    1    1    0   
+$EndComp
+Connection ~ 1950 6800
+Wire Wire Line
+	1700 6800 2650 6800
+Wire Wire Line
+	1200 6800 1400 6800
+$Comp
+L +5V #PWR018
+U 1 1 5A222B57
+P 2650 6400
+F 0 "#PWR018" H 2650 6250 50  0001 C CNN
+F 1 "+5V" H 2650 6540 30  0000 C CNN
+F 2 "" H 2650 6400 50  0000 C CNN
+F 3 "" H 2650 6400 50  0000 C CNN
+	1    2650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X10 P14
+U 1 1 5A222B5D
+P 3600 6150
+F 0 "P14" H 3600 6700 50  0000 C CNN
+F 1 "CONN_01X10" V 3700 6150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 3600 6150 50  0001 C CNN
+F 3 "" H 3600 6150 50  0000 C CNN
+	1    3600 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 5700 4050 5700
+Wire Wire Line
+	3800 6500 4050 6500
+Wire Wire Line
+	3800 6400 4050 6400
+Wire Wire Line
+	3800 6300 4050 6300
+Wire Wire Line
+	3800 6200 4050 6200
+Wire Wire Line
+	3800 6100 4050 6100
+Wire Wire Line
+	3800 6000 4050 6000
+Wire Wire Line
+	3800 5900 4050 5900
+Wire Wire Line
+	3800 5800 4050 5800
+Text Label 4050 6500 0    60   ~ 0
+2
+Text Label 4050 6300 0    60   ~ 0
+4
+Text Label 4050 6000 0    60   ~ 0
+7
+Text Label 4050 5900 0    60   ~ 0
+8
+$Comp
+L Q_NPN_BEC Q6
+U 1 1 5A222B70
+P 4850 6650
+F 0 "Q6" H 5050 6700 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 5050 6600 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5050 6750 50  0001 C CNN
+F 3 "" H 4850 6650 50  0000 C CNN
+	1    4850 6650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5700 4050 5450
+Wire Wire Line
+	4050 5450 3300 5450
+Wire Wire Line
+	3300 5450 3300 6850
+$Comp
+L R R16
+U 1 1 5A222B79
+P 4050 7000
+F 0 "R16" V 4130 7000 50  0000 C CNN
+F 1 "10K" V 4050 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3980 7000 50  0001 C CNN
+F 3 "" H 4050 7000 50  0000 C CNN
+	1    4050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5A222B7F
+P 4050 7150
+F 0 "#PWR019" H 4050 6900 50  0001 C CNN
+F 1 "GND" H 4050 7000 50  0000 C CNN
+F 2 "" H 4050 7150 50  0000 C CNN
+F 3 "" H 4050 7150 50  0000 C CNN
+	1    4050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5A222B85
+P 3650 6850
+F 0 "R14" V 3730 6850 50  0000 C CNN
+F 1 "1K" V 3650 6850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3580 6850 50  0001 C CNN
+F 3 "" H 3650 6850 50  0000 C CNN
+	1    3650 6850
+	0    1    1    0   
+$EndComp
+Connection ~ 4050 6850
+Wire Wire Line
+	3800 6850 4750 6850
+Wire Wire Line
+	3300 6850 3500 6850
+$Comp
+L +5V #PWR020
+U 1 1 5A222B8F
+P 4750 6450
+F 0 "#PWR020" H 4750 6300 50  0001 C CNN
+F 1 "+5V" H 4750 6590 30  0000 C CNN
+F 2 "" H 4750 6450 50  0000 C CNN
+F 3 "" H 4750 6450 50  0000 C CNN
+	1    4750 6450
+	1    0    0    -1  
+$EndComp
+Text Label 2950 6600 0    60   ~ 0
+A4(SDA)
+Text Label 5050 6650 0    60   ~ 0
+A5(SCL)
+Wire Wire Line
+	1700 6550 1700 6700
+Wire Wire Line
+	1700 6700 1400 6700
+Wire Wire Line
+	1400 6700 1400 6800
+Wire Wire Line
+	3800 6600 3800 6750
+Wire Wire Line
+	3800 6750 3500 6750
+Wire Wire Line
+	3500 6750 3500 6850
+Text Label 4050 5800 0    60   ~ 0
+9(**)
+Text Label 1950 5750 0    60   ~ 0
+9(**)
+Text Label 1950 6050 0    60   ~ 0
+6(**)
+Text Label 4050 6100 0    60   ~ 0
+6(**)
+Text Label 4050 6200 0    60   ~ 0
+5(**)
+Text Label 1950 6150 0    60   ~ 0
+5(**)
+Text Label 1950 6350 0    60   ~ 0
+3(**)
+Text Label 4050 6400 0    60   ~ 0
+3(**)
+Wire Notes Line
+	800  7350 5400 7350
+NoConn ~ 10550 1200
+NoConn ~ 10550 1300
 $EndSCHEMATC
