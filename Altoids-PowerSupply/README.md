@@ -23,4 +23,28 @@ I also wanted to learn about switch mode power supplies, so I used two MC34063s,
 
 Li-ion charging is also a new thing for me, so this will be a learning curve.
 
-That's really it, most of the specific relevant information is on the schematic. I haven't finished the layout yet, but that's coming soon.
+## Rev A ##
+
+Finished layout, design files are done.
+
+Max current is:
+- 300mA for 5V and 3v3
+- 100mA for 12V
+
+### Issues ###
+
+- No silkscreen labelling for what's what.
+- Unsure if it actually works (haven't received the board/put it together yet)
+- The 'cutoff' transistor should really be controlled by an NPN switch, the circuit should default off.
+- Probably should have chosen a different diode (especially for 12v) with higher current capabilities
+- Component choices are hit and miss, smaller, cheaper components could have been selected (I went with most of my current choices just to make ordering and layout simpler and more consistent).
+- Double sided load. Ideally all the components (especially surface mount) should be on one side. This comes down to component selection mostly. Not sure how much extra space I have (or could have).
+
+## Rev B ##
+
+I'm starting this right now with the silkscreen corrections, just so I don't forget them again.
+
+### TODO ###
+
+- make the cutoff transistor default off.
+- fix other issues that pop up.
