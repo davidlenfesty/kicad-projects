@@ -39,6 +39,9 @@ Max current is:
 - Probably should have chosen a different diode (especially for 12v) with higher current capabilities
 - Component choices are hit and miss, smaller, cheaper components could have been selected (I went with most of my current choices just to make ordering and layout simpler and more consistent).
 - Double sided load. Ideally all the components (especially surface mount) should be on one side. This comes down to component selection mostly. Not sure how much extra space I have (or could have).
+- Minimum size you can get of 330uF caps is 6.3mm diam, need to change out this footprint.
+- Really I should select the components and download footprints from digikey
+- switch will need to be bodged in
 
 ## Rev B ##
 
