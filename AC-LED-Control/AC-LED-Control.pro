@@ -1,4 +1,4 @@
-update=Mon 09 Jul 2018 01:14:02 PM MDT
+update=Tue 10 Jul 2018 04:04:44 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Custom-Parts
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=digikey-UltraLibrarian/KiCAD/symbols
+LibName31=stm32f030f4p6
