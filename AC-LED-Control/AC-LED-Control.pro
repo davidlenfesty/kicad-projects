@@ -1,4 +1,4 @@
-update=Wed 11 Jul 2018 10:50:40 AM MDT
+update=Wed 11 Jul 2018 05:34:45 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=digikey-UltraLibrarian/KiCAD/symbols
 LibName31=stm32f030f4p6
 LibName32=fod814-d
 LibName33=ltv-846s
+LibName34=power_reg
