@@ -54,3 +54,9 @@ How do I determine the I2C address?
 I know what to do. Have a default address to listen to, but you can change it over I2C. It stores this address in EEPROM so it persists across reflashes.
 
 Easy-peasy.
+
+## Power connections ##
+
+Load connections, I think I'll just use 0.1" screw terminal headers.
+
+For the main AC in I'm not sure though.
