@@ -30,6 +30,7 @@ NRST is active low reset.
 If BOOT0 is pulled up I think it boots a bootloader that can reprogram flash through USART. Test this out on my dev board.
 
 Not going to test this, no real sense in doing this when I have an ST-LINK/V2 anyways.
+Pull low to make it use user flash.
 
 ## 74HC595 ##
 
