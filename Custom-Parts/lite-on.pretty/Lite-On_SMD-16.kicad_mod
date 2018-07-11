@@ -1,5 +1,5 @@
 (module Lite-On_SMD-16 (layer F.Cu) (tedit 5B467284)
-  (fp_text reference REF** (at 0 16.51) (layer F.SilkS)
+  (fp_text reference REF** (at 0 6.985) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Lite-On_SMD-16 (at 0 -7.62) (layer F.Fab)

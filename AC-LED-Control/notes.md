@@ -6,11 +6,11 @@ Vss is ground.
 
 ### Bypass ###
 
-VDD Needs:
+VDD (pin 16) Needs:
 - 2x 100nF
 - 1x 4.7 uF
 
-VDDA Needs:
+VDDA (pin 5) Needs:
 - 1x 10nF
 - 1x 1uF
 
@@ -60,3 +60,7 @@ Easy-peasy.
 Load connections, I think I'll just use 0.1" screw terminal headers.
 
 For the main AC in I'm not sure though.
+
+## Power Rails ##
+
+3v3: maybe these modules: VXO78-1000 ? (found in macrofab slack channel) nvm, too high power
