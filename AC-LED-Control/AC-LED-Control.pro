@@ -1,4 +1,4 @@
-update=Tue 10 Jul 2018 04:04:44 PM MDT
+update=Wed 11 Jul 2018 10:13:06 AM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=digikey-UltraLibrarian/KiCAD/symbols
 LibName31=stm32f030f4p6
+LibName32=fod814-d

@@ -46,3 +46,11 @@ QH' is an output pin, it clocks out the value in QH.
 STM32F030 I2C Pins:
 - PA9: I2C1_SCL
 - PA10: I2C1_SDA
+
+How do I determine the I2C address?
+- I can hardcode it (annoying to change, have to have seperate binaries)
+- I can listen on I2C...
+
+I know what to do. Have a default address to listen to, but you can change it over I2C. It stores this address in EEPROM so it persists across reflashes.
+
+Easy-peasy.
