@@ -1,2 +1,5 @@
 #Just for ignoring backup files and misc collected by KiCAD
 *bak
+
+#Bit for ignoring swap files
+*.swp
