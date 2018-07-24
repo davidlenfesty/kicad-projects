@@ -474,11 +474,11 @@ F 3 "" H 7850 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8000 2600 8200 2600
+	8000 2600 8700 2600
 Wire Wire Line
-	8000 3550 8200 3550
+	8000 3550 8700 3550
 Wire Wire Line
-	8000 4500 8200 4500
+	8000 4500 8700 4500
 Wire Wire Line
 	7700 2600 7500 2600
 Wire Wire Line
@@ -572,8 +572,6 @@ $EndComp
 Wire Wire Line
 	8400 2000 8400 2150
 Wire Wire Line
-	8700 2600 8200 2600
-Wire Wire Line
 	9200 2750 9200 2650
 Wire Wire Line
 	8400 2450 8400 2750
@@ -619,8 +617,6 @@ $EndComp
 Wire Wire Line
 	8400 2950 8400 3100
 Wire Wire Line
-	8700 3550 8200 3550
-Wire Wire Line
 	9200 3700 9200 3600
 Wire Wire Line
 	8400 3400 8400 3700
@@ -665,8 +661,6 @@ F 3 "" H 8400 4200 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	8400 3900 8400 4050
-Wire Wire Line
-	8700 4500 8200 4500
 Wire Wire Line
 	9200 4650 9200 4550
 Text GLabel 9200 1800 2    39   Input ~ 0
