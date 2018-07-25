@@ -475,7 +475,7 @@ U 1 1 5B459213
 P 2450 2750
 F 0 "P103" H 2450 2500 50  0000 C CNN
 F 1 "CONN_01X04" V 2550 2750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2450 2750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2450 2750 50  0001 C CNN
 F 3 "" H 2450 2750 50  0000 C CNN
 	1    2450 2750
 	-1   0    0    -1  
