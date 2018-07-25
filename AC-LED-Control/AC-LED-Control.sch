@@ -624,8 +624,6 @@ Pulses high when\nAC crosses 0V.
 Text Notes 2350 3200 0    39   ~ 0
 Can also be\nUSART
 Wire Wire Line
-	750  1650 1550 1650
-Wire Wire Line
 	1550 1550 1150 1550
 Wire Wire Line
 	1150 1550 1150 1650
@@ -1448,23 +1446,8 @@ Wire Notes Line
 	8000 3500 8000 6200
 Wire Notes Line
 	8000 6200 8650 6200
-$Comp
-L D D117
-U 1 1 5B585061
-P 3150 2800
-F 0 "D117" H 3150 2900 50  0000 C CNN
-F 1 "D" H 3150 2700 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 3150 2800 50  0001 C CNN
-F 3 "" H 3150 2800 50  0001 C CNN
-	1    3150 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3000 2800 2650 2800
-Text Label 2650 2800 0    60   ~ 0
-STM_VCC
-Text Label 750  1650 0    60   ~ 0
-STM_VCC
+	2650 2800 3300 2800
 $Comp
 L Conn_01x02 J104
 U 1 1 5B586C53
@@ -1495,4 +1478,17 @@ F 3 "" H 7600 5000 50  0001 C CNN
 	1    7600 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5B5906B7
+P 950 1650
+F 0 "#PWR?" H 950 1500 50  0001 C CNN
+F 1 "+3V3" H 950 1790 50  0000 C CNN
+F 2 "" H 950 1650 50  0000 C CNN
+F 3 "" H 950 1650 50  0000 C CNN
+	1    950  1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1650 950  1650
 $EndSCHEMATC
